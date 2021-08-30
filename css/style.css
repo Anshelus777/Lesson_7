@@ -1,0 +1,421 @@
+/*=========================================FONTS=========================================*/
+/*=========================================FONTS=========================================*/
+/*=========================================FONTS=========================================*/
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alumni+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
+
+@font-face {
+	font-family: "Torhok";
+	src: url("../fonts/Torhok.woff2") format("woff2"), url("../fonts/Torhok.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Torhok";
+	src: url("../fonts/TorhokItalic.woff2") format("woff2"), url("../fonts/TorhokItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+/*=========================================Zeroing Styles=========================================*/
+/*=========================================Zeroing Styles=========================================*/
+/*=========================================Zeroing Styles=========================================*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+ul {
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	font-family: Torhok;
+	font-size: 18px;
+	background: linear-gradient( to bottom, #e4ccb5 11%, #f3dbab 18%, #f3dbab 22%, #f3dbab 22%, #f3dbab 27%, #eae9e5 32%, #eae9e5 41%, #f6d898 51%, #f6d898 65%, #d0dec7 76%, #d0dec7 83%, #d0dec7 83%, #d0dec7 83%, #d0dec7 85%, #f9ddab 94%, #f9ddab 96%, #f9ddab 100% );
+	font-weight: normal;
+	font-style: italic;
+}
+
+p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+/*=========================================CODE=========================================*/
+/*=========================================CODE=========================================*/
+/*=========================================CODE=========================================*/
+/*=====================h1 & .container=====================*/
+h1 {
+	font-family: "Alumni Sans";
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: left;
+	word-spacing: 5px;
+	font-size: 80px;
+	max-width: 33.3%;
+	margin: 50px auto 10px auto;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0px auto;
+	padding: 5%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+/*=====================HEADER=====================*/
+		ul.headerList {
+			margin: 0px 0px 30px 0px;
+		}
+
+		ul.headerList a {
+			color: black;
+			text-decoration-style: solid;
+			text-decoration-color: black;
+			text-decoration-line: underline;
+		}
+
+		.flow, .animals, .sea, .drama {
+			padding: 0px 0px 0px 35px;
+			margin: 0px 0px 10px 0px;
+			font-size: 25px;
+			line-height: 150%;
+			min-height: 24px;
+			
+		}
+
+		.flow {
+			background: url(../img/flow.png) 0 0 no-repeat;
+		}
+
+		.animals {
+			background: url(../img/animal.png) 0 0 no-repeat;
+		}
+
+		.sea {
+			background: url(../img/fish.png) 0 0 no-repeat;
+		}
+
+		.drama {
+			background: url(../img/sad.png) 0 0 no-repeat;
+		}
+
+div.header {
+	max-width: 80%;
+	margin: 0px 0px 25px 0px;
+	background-color: #e4ccb5;
+	padding: 15px;
+	font-size: 20px;
+	border: 2px dotted rgb(0, 0, 0);
+}
+
+div.header img.header {
+	float: left;
+	max-width: 50%;
+	margin: 10px;
+	border-bottom: 2px dashed rgb(0, 0, 0);
+	border-top: 2px dashed rgb(0, 0, 0);
+	border-left: 2px solid rgb(0, 0, 0);
+	border-right: 2px solid rgb(0, 0, 0);
+}
+
+.item {
+	clear: both;
+}
+/*=====================MAIN=====================*/
+.text {
+	margin-bottom: 25px;
+}
+
+.subtitle1, .subtitle2, .subtitle3, .subtitle4, .subtitle5 {
+	max-width: 850px;
+	margin: 0px 0px 25px 0px;
+	background-color: #e4ccb5;
+	outline: 2px dotted black;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2.subtitle1 {
+	background-color: #f5d797;
+}
+
+h2.subtitle2 {
+	background-color: #e9d4a7;
+}
+
+h2.subtitle3 {
+	background-color: #ece8e5;
+}
+
+h2.subtitle4 {
+	background-color: #f7ebc5;
+}
+
+h2.subtitle5 {
+	background-color: #f9f2e2;
+}
+
+h2 img {
+	float: left;
+	width: 100%;
+}
+/*=====================FOOTER=====================*/
+.subtitle, .footerCatalogH2 {
+	display: block;
+	font-size: 80px;
+	max-width: 33.3%;
+	margin: 50px auto 30px auto;
+	text-align: center;
+	font-family: "Alumni Sans";
+	font-weight: 500;
+	font-style: normal;
+}
+
+footer {
+	font-size: 0;
+}
+
+.footer1, .footer2, .footer3, .footer4, .footer5, .footer6, .footer7 {
+	text-align: center;
+}
+
+.footer1 li, .footer2 li, .footer3 li, .footer4 li, .footer5 li, .footer6 li, .footer7 li {
+	display: inline;
+}
+
+.img-footer1, .img-footer2, .img-footer3, .img-footer4, .img-footer5, .img-footer6, .img-footer7 {
+font-size: 18px;
+border: 1px solid black;
+border-radius: 0px 20% 0px 20%;
+max-width: 33.3%;
+vertical-align: top;
+filter: drop-shadow(10px 15px 4px #000000);
+}
+
+.img-test {
+	min-width: 21%;
+	border: 1px solid black;
+	display: block;
+	margin: -26.2% 0px 20px 34%;
+	max-width: 32.2%;
+	filter: drop-shadow(10px 15px 4px #000000);
+}
+
+.catalog {
+	max-width: 80%;
+	height: 1500px;
+	background: url(../img/df1.jpeg) 0 0 / 25% no-repeat, url(../img/df2.jpeg) 40% 0 / 25% no-repeat, url(../img/df3.jpeg) 100% 85% / auto 35% no-repeat, url(../img/df4.jpeg) 0 100% / 25% no-repeat, url(../img/df5.jpeg) 1% 58% / auto 35% no-repeat, url(../img/df6.jpeg) 50% 50% / auto 40% no-repeat, url(../img/df7.jpeg) 45% 97% / 25% no-repeat, url(../img/df8.jpeg) 100% 0 / auto 35% no-repeat, url(../img/footer_pattern.jpeg) 0 0 / cover no-repeat;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+.footer-finall {
+	display: block;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin: 50px auto;
+	box-shadow: /*inset*/ 10px 15px 20px 10px black;
+	max-width: 86.3%;
+}
+
+h6 {
+	font-size: 15px;
+}
+/*=====================NOTES=====================*/
+/* 
+.block {
+	background-color: green;
+	padding: 15px;
+	margin: 0px 0px 50px 0px;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+.block:hover {
+}
+.block span {
+	font-weight: 700;
+}
+.wrapper {
+}
+.wrapper:hover .block {
+	opacity: 1;
+	visibility: visible;
+}
+ */
+/*
+.block-scroll {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: green;
+	border: 5px dashed red;
+}
+.block-scroll__inner {
+	padding: 15px 45px 15px 15px;
+	overflow: auto;
+
+	margin: 0px -30px 0px 0px;
+	height: 200px;
+}
+*/
+
+/*
+.image {
+	width: 200px;
+	height: 200px;
+	margin: 0px auto;
+	display: block;
+	border-radius: 50%;
+}
+.inline {
+	border-radius: 50%;
+	border: 5px dashed red;
+	line-height: 30px;
+	background-color: orange;
+}
+*/
+
+/* 
+border
+Универсальное свойство border позволяет одновременно установить толщину, 
+стиль и цвет границы вокруг элемента.
+border: 1px solid #000; (размер стиль цвет)
+Основные стили -solid dotted dashed
+
+border-radius
+Устанавливает радиус скругления уголков блока.
+border-radius:50%; - кргуг
+Можно использовать вместе с overflow: hidden;
+
+outline
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border, свойство outline 
+не влияет на положение блока и его ширину. 
+Также нельзя задать параметры линии на отдельных сторонах элемента, 
+outline применяется сразу ко всем четырём сторонам.
+
+box-shadow
+Добавляет тень к элементу.
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние и цвет
+Можно добавить много теней. На тень влияет свойство border-radius.
+filter: drop-shadow(30px 10px 4px #4444dd);
+
+opacity
+Определяет уровень прозрачности элемента.
+Отличие opacity:0; от display:none; в том что блок не 
+убирается из верстки а только становиться прозрачным, 
+то есть занимаемое им место остается. Так же, с прозрачными 
+элементами все еще можно взаимодействовать, например 
+кликать по ссылкам.
+
+visibility
+Предназначен для отображения или скрытия элемента.
+Отличие visibility: hidden; от display:none; в том что блок не убирается из верстки а только скрывается, то есть занимаемое им место остается.
+Отличие visibility: hidden; от opacity:0; в том что блок скрывается и взаимодействовать с ним нельзя.
+*/
+
+/* ========================================================================================= */
+/*
+.article {
+	max-width: 800px;
+	margin: 0px auto;
+	background-color: #eee;
+	padding: 15px;
+	font-size: 20px;
+}
+.article__image {
+	float: left;
+	width: 350px;
+	margin: 15px;
+}
+.item {
+	clear: both;
+}
+*/
+/*
+.items {
+}
+.item {
+	vertical-align: middle;
+	display: inline-block;
+	width: 100px;
+	padding: 15px;
+	background-color: green;
+}
+*/
+/*
+vertical-align: top;
+vertical-align: middle;
+vertical-align: bottom;
+*/
+
+/*
+.block {
+	background-color: green;
+	max-width: 300px;
+	margin: 0px auto;
+}
+*/
+/*
+1. Блочный
+2. Ограничен по ширине (уже чем родитель)
+3. margin: 0px auto; 
+*/
+/*
+.list {
+	font-size: 0;
+}
+.list li {
+	display: inline-block;
+}
+.link {
+	font-size: 16px;
+}
+*/
+
+
